@@ -22,7 +22,7 @@ form.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
 form.style.zIndex = '1000';
 
 form.innerHTML = `
-<h5 style="margin-bottom: 15px;">Oops! You must log in to continue viewing this post:</h5>
+<h5 style="margin-bottom: 15px;">Oops! You must log in to continue:</h5>
 <div style="margin-bottom: 10px;">
     <label for="username" style="display:block;">Username</label>
     <input type="text" id="username" style="width: 100%; padding: 5px;" required>
